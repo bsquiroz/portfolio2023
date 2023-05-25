@@ -3,7 +3,7 @@ import "./styles.css";
 
 export const Games = () => {
     return (
-        <>
+        <div className="elementScrollReveal">
             <div className="section games">
                 <h2>
                     ¿Juegas? <i className="bx bx-game"></i>{" "}
@@ -50,6 +50,6 @@ export const Games = () => {
                 </div>
             </div>
             <Separator />
-        </>
+        </div>
     );
 };

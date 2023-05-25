@@ -8,7 +8,7 @@ export const Header = () => {
     const { handleColorPrincipal } = useHeader();
 
     return (
-        <div className="section header">
+        <div className="elementScrollReveal section header">
             <div className="header__top">
                 <div className="header__img">
                     <img src="/me.jpg" alt="brayan" />

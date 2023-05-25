@@ -3,7 +3,7 @@ import "./styles.css";
 
 export const About = () => {
     return (
-        <>
+        <div className="elementScrollReveal">
             <div className="section about">
                 <h2>Sobre mi</h2>
 
@@ -17,6 +17,6 @@ export const About = () => {
                 </p>
             </div>
             <Separator />
-        </>
+        </div>
     );
 };
