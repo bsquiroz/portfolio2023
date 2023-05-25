@@ -1,0 +1,14 @@
+.social ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.social .bx {
+    font-size: 2rem;
+    color: var(--color-100);
+    transition: color 0.5s;
+}
+
+.social .bx:hover {
+    color: var(--color-primary);
+}

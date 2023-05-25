@@ -1,0 +1,26 @@
+.games ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.games li a {
+    display: flex;
+    max-width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.games li a:hover {
+    background-color: var(--color-primary);
+    border: 2px solid transparent;
+    color: #fff;
+}
