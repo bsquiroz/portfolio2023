@@ -19,7 +19,7 @@ export const Social = () => {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/stiven-quiroz-8841b1184/"
+                            href="https://www.linkedin.com/in/bsmq/"
                             target="_blank"
                             rel="noreferrer"
                         >
