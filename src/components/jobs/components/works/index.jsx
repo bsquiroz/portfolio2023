@@ -29,9 +29,9 @@ const data = [
 	},
 	{
 		id: 3,
-		urlImg: "/images/img2.PNG",
+		urlImg: "/images/img4.PNG",
 		name: "image4",
-		url: "",
+		url: "https://bsquirozfrontendmentor.netlify.app/",
 	},
 ];
 
