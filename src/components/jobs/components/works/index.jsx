@@ -33,6 +33,12 @@ const data = [
 		name: "image4",
 		url: "https://bsquirozfrontendmentor.netlify.app/",
 	},
+	{
+		id: 4,
+		urlImg: "/images/img5.PNG",
+		name: "image5",
+		url: "https://menubsquiroz.netlify.app",
+	},
 ];
 
 export const Works = () => {
