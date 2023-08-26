@@ -1,110 +1,153 @@
 .header__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	gap: 1rem;
+	flex-wrap: wrap;
 }
 
 .header__img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+
+	position: relative;
+}
+
+.img__overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color-primary);
+	opacity: 0.2;
 }
 
 .header__img img {
-    height: 100%;
-    object-fit: cover;
+	height: 100%;
+	object-fit: cover;
 }
 
 .header__botton h2 {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 2rem;
 }
 
 .header__color-change {
-    position: relative;
+	position: relative;
 }
 
 .header__color-change .item {
-    width: 50px;
-    height: 50px;
-    background-color: var(--color-primary);
-    border-radius: 50%;
-    cursor: pointer;
-    transition: opacity 0.5s;
-    animation: generalAnimation 3s infinite;
+	width: 70px;
+	height: 70px;
+	background-color: var(--color-primary);
+	border-radius: 50%;
+	cursor: pointer;
+	transition: opacity 0.5s;
+	animation: generalAnimation 3s infinite;
+
+	display: grid;
+	place-items: center;
+
+	position: relative;
+}
+
+.header__color-change .item img {
+	position: relative;
+	top: 0.5rem;
+}
+
+.header__color-change .item span {
+	position: absolute;
+	top: -1.2rem;
+	display: block;
+	color: var(--color-primary);
+	font-weight: bold;
+	animation: animationItemSpan 3s infinite;
+}
+
+@keyframes animationItemSpan {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .box_color {
-    background-color: #fff;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
-    position: absolute;
-    top: -80px;
-    transform: translateX(-25%);
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.5s, opacity 0.5s;
+	background-color: #fff;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.5rem;
+	position: absolute;
+	top: -80px;
+	transform: translateX(-25%);
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.5s, opacity 0.5s;
 }
 
 .header__color-change:hover .box_color {
-    visibility: visible;
-    opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 .box_color-item {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    cursor: pointer;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	cursor: pointer;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .header__color-change .item:hover {
-    opacity: 0.9;
+	opacity: 0.9;
 }
 
 .header__botton {
-    display: grid;
-    gap: 1rem;
+	display: grid;
+	gap: 1rem;
 }
 
 .header__botton ul {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
+	display: flex;
+	gap: 0.5rem;
+	flex-wrap: wrap;
 }
 
 .header__botton ul li {
-    color: var(--color-100);
-    font-weight: bold;
+	color: var(--color-100);
+	font-weight: bold;
 }
 
 .header__botton .bx-download {
-    cursor: pointer;
-    animation: generalAnimation 3s infinite;
+	cursor: pointer;
+	animation: generalAnimation 3s infinite;
 }
 
 @keyframes generalAnimation {
-    0% {
-        transform: translateY(10px);
-    }
+	0% {
+		transform: translateY(10px);
+	}
 
-    50% {
-        transform: translateY(0px);
-    }
+	50% {
+		transform: translateY(0px);
+	}
 
-    100% {
-        transform: translateY(10px);
-    }
+	100% {
+		transform: translateY(10px);
+	}
 }
