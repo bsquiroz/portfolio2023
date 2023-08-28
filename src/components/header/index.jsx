@@ -40,7 +40,7 @@ export const Header = () => {
 				</h2>
 				<ul>
 					<li>Colombia | </li>
-					<li>medellin | </li>
+					<li>Medellín | </li>
 					<li>23 años | </li>
 					<li>React developer | </li>
 					<li>A veces deportista</li>
