@@ -15,6 +15,15 @@ export const About = () => {
 					Me gustan los retos, por ejemplo, programar, trotar, comer y
 					dormir el mismo día. 😅
 				</p>
+
+				<a
+					className="linkCoverLetter"
+					href="https://coverletterme.netlify.app"
+					target="_blank"
+				>
+					<i class="bx bxs-pencil"></i>
+					<span>Aquí me presento un poco mejor 🙊</span>
+				</a>
 			</div>
 			<Separator />
 		</div>

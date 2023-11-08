@@ -1,0 +1,11 @@
+.linkCoverLetter {
+	color: var(--color-primary);
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.linkCoverLetter span {
+	color: var(--color-100);
+	font-weight: bold;
+}
