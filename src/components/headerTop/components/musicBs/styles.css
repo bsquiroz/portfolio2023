@@ -1,0 +1,10 @@
+.iconMusic {
+	font-size: 2rem;
+	cursor: pointer;
+	background-color: var(--color-primary);
+	border-radius: 50%;
+	padding: 0.2rem;
+	color: var(--bg);
+	display: grid;
+	place-items: center;
+}

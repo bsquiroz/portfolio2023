@@ -44,8 +44,8 @@ const data = [
 export const Works = () => {
 	return (
 		<>
-			<i class="bx bx-left-arrow-alt prevButton"></i>
-			<i class="bx bx-right-arrow-alt nextButton"></i>
+			<i className="bx bx-left-arrow-alt prevButton"></i>
+			<i className="bx bx-right-arrow-alt nextButton"></i>
 			<Swiper
 				breakpoints={{
 					400: {

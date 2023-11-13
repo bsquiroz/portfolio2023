@@ -26,6 +26,15 @@ export const Social = () => {
 							<i className="bx bx-tada-hover bxl-linkedin"></i>
 						</a>
 					</li>
+					<li>
+						<a
+							href="https://www.youtube.com/channel/UCFjCKMkah0p-5790yE8Cz6Q"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<i className="bx bx-tada-hover bxl-youtube"></i>
+						</a>
+					</li>
 				</ul>
 			</div>
 			<Separator />
