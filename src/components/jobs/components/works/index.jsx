@@ -14,6 +14,7 @@ const data = [
 		urlImg: "/images/img1.PNG",
 		name: "image1",
 		url: "https://academlostorev1.netlify.app/",
+		video: "https://www.youtube.com/playlist?list=PLIZ-e-uj6_ocgdrzCEDgwH1NhyouMaoxN",
 	},
 	{
 		id: 1,
@@ -32,6 +33,7 @@ const data = [
 		urlImg: "/images/img4.PNG",
 		name: "image4",
 		url: "https://bsquirozfrontendmentor.netlify.app/",
+		video: "https://www.youtube.com/playlist?list=PLIZ-e-uj6_ofJgbUzOuVuiNku1Oo-66AP",
 	},
 	{
 		id: 4,
@@ -65,9 +67,14 @@ export const Works = () => {
 				className="swipper__work"
 				loop={true}
 			>
-				{data.map(({ id, name, urlImg, url }) => (
+				{data.map(({ id, name, urlImg, url, video }) => (
 					<SwiperSlide key={id} className="swipper__work--item">
-						<Work urlImg={urlImg} name={name} url={url} />
+						<Work
+							urlImg={urlImg}
+							name={name}
+							url={url}
+							video={video}
+						/>
 					</SwiperSlide>
 				))}
 			</Swiper>

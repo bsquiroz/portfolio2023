@@ -2,6 +2,28 @@
 	border-radius: 0.5rem;
 	overflow: hidden;
 	height: 100%;
+	position: relative;
+}
+
+.work__img__link {
+	position: absolute;
+	background-color: #00000090;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	gap: 1rem;
+	transform: translateY(100%);
+	transition: all 0.5s;
+}
+
+.work__img:hover .work__img__link {
+	transform: translateY(0%);
+}
+
+.work__img__link i {
+	color: #fff;
 }
 
 .work__img img {

@@ -21,7 +21,7 @@ export const About = () => {
 					href="https://coverletterme.netlify.app"
 					target="_blank"
 				>
-					<i class="bx bx-link"></i>
+					<i className="bx bx-link"></i>
 					<span>Aquí me presento un poco mejor 🙊</span>
 				</a>
 			</div>
