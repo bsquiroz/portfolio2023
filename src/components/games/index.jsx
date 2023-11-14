@@ -39,7 +39,7 @@ export const Games = () => {
 						</li>
 						<li>
 							<a
-								href="https://guessimagebs.netlify.app/"
+								href="https://memorygamebs.netlify.app/"
 								rel="noreferrer"
 								target="_blank"
 							>
