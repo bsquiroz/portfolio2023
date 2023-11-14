@@ -1,46 +1,23 @@
 .skills {
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
 .skill {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid var(--color-primary);
-    border-radius: 0.5rem;
+	border: 1px solid var(--color-primary);
+	border-radius: 0.5rem;
 }
 
 .skill p {
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--color-primary);
-    position: relative;
-    z-index: 1000;
-    font-weight: bold;
+	padding: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
+	color: var(--color-primary);
+	font-weight: bold;
 }
 
 .skill .bx {
-    font-size: 1.5rem;
-}
-
-.skillBanner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: translateX(-100%);
-    transition: transform 0.5s;
-}
-
-.skill:hover .skillBanner {
-    transform: translateX(0);
-}
-
-.skill:hover p {
-    color: #fff;
+	font-size: 1.5rem;
 }

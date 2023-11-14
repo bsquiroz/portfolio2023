@@ -14,12 +14,12 @@ export const SearchJob = () => {
 
 	return (
 		<div className={styleContainerSearchJob}>
+			<div className="banner"></div>
 			<div className="searchJob">
 				<i className="iconClose bx bx-x" onClick={handleClick}></i>
 				<div className="overlayJob">
 					<p>En busca de una empresa que me quiera adoptar</p>
 				</div>
-				<img src="/cat.gif" alt="" />
 			</div>
 		</div>
 	);
