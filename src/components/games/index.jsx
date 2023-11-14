@@ -14,8 +14,11 @@ export const Games = () => {
 
 				<div>
 					<p>
-						Bueno, que no todo sea leer, por aquí tengo unos mini
-						juegos que he creado, espero te diviertas.
+						Bueno... No todo tiene que ser lectura. Aquí tienes
+						algunos minijuegos que he creado. Espero que te
+						diviertas. Recuerda que los códigos fuente están en mi
+						repositorio. Échales un vistazo 👀 y deja una estrellita
+						⭐, ¡jeje!
 					</p>
 
 					<ul>

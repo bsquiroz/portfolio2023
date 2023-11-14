@@ -9,11 +9,11 @@ export const About = () => {
 
 				<p>
 					Cuando no estoy programando, lo más probable es que esté
-					trotando, comiendo o durmiendo, pero, por lo general,
-					siempre estoy programando.
+					trotando, comiendo o durmiendo, pero, en general, siempre
+					estoy programando.
 					<br />
-					Me gustan los retos, por ejemplo, programar, trotar, comer y
-					dormir el mismo día. 😅
+					Me gustan los retos; por ejemplo, programar, trotar, comer,
+					dormir y agregar algo más en el mismo día. 😅
 				</p>
 
 				<a
