@@ -34,7 +34,7 @@ export const Header = () => {
 			<div className="header__botton">
 				<h2>
 					Stiven Quiroz{" "}
-					<a download={""} href="/cv.pdf">
+					<a download={""} href="/stivenQuiroz-cv.pdf">
 						<i className="bx bx-download"></i>
 					</a>
 				</h2>
