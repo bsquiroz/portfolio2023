@@ -21,7 +21,7 @@ export const Games = () => {
 					<ul>
 						<li>
 							<a
-								href="https://worldlebs.netlify.app"
+								href="https://wordlebs.netlify.app/"
 								rel="noreferrer"
 								target="_blank"
 							>
