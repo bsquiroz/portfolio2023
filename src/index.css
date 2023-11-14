@@ -20,6 +20,8 @@ body.darkmode {
 
 body {
 	background-color: var(--bg);
+	position: relative;
+	padding: 7rem 0;
 }
 
 img {

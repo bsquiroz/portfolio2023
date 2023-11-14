@@ -1,10 +1,10 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: var(--bg);
-    position: relative;
-    top: -25vh;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 0 0.2rem var(--color-shadow);
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: var(--bg);
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 0.2rem var(--color-shadow);
+	position: relative;
+	z-index: 10;
 }

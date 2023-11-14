@@ -7,6 +7,7 @@ import { Hero } from "./components/hero";
 import { Jobs } from "./components/jobs";
 import { SearchJob } from "./components/searchJob";
 import { Social } from "./components/social";
+import { Footer } from "./components/footer";
 import { useScrollReveal } from "./hooks/useScrollReveal";
 
 export const App = () => {
@@ -23,6 +24,8 @@ export const App = () => {
 				<Games />
 				<Jobs />
 			</Container>
+
+			<Footer />
 		</>
 	);
 };
