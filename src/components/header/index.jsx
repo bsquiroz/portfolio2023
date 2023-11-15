@@ -42,7 +42,7 @@ export const Header = () => {
 					<li>Colombia | </li>
 					<li>Medellín | </li>
 					<li>23 años | </li>
-					<li>React developer | </li>
+					<li>Fullstack developer JS | </li>
 					<li>A veces deportista</li>
 				</ul>
 			</div>
