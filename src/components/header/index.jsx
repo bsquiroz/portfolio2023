@@ -39,10 +39,10 @@ export const Header = () => {
 					</a>
 				</h2>
 				<ul>
+					<li>Fullstack developer JS | </li>
 					<li>Colombia | </li>
 					<li>Medellín | </li>
 					<li>23 años | </li>
-					<li>Fullstack developer JS | </li>
 					<li>A veces deportista</li>
 				</ul>
 			</div>
