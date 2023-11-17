@@ -2,7 +2,11 @@
 .nextButton {
 	font-size: 2rem;
 	cursor: pointer;
-	color: var(--color-primary);
+	background-color: var(--color-primary);
+	margin-right: 1rem;
+	margin-top: 1rem;
+	color: #fff;
+	border-radius: 50%;
 }
 
 .swipper__work {
