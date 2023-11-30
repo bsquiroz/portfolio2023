@@ -5,7 +5,6 @@ import { Header } from "./components/header";
 import { HeaderTop } from "./components/headerTop";
 import { Hero } from "./components/hero";
 import { Jobs } from "./components/jobs";
-import { SearchJob } from "./components/searchJob";
 import { Social } from "./components/social";
 import { Footer } from "./components/footer";
 import { useScrollReveal } from "./hooks/useScrollReveal";
@@ -14,7 +13,6 @@ export const App = () => {
 	useScrollReveal();
 	return (
 		<>
-			<SearchJob />
 			<Hero />
 			<Container>
 				<HeaderTop />
@@ -24,7 +22,6 @@ export const App = () => {
 				<Games />
 				<Jobs />
 			</Container>
-
 			<Footer />
 		</>
 	);
