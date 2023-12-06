@@ -1,5 +1,11 @@
 .headerTop {
 	display: flex;
-	flex-direction: row-reverse;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.headerR {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
 }

@@ -3,15 +3,14 @@ import React from "react";
 import "./styles.css";
 
 export const Work = ({ urlImg, name, url, video }) => {
-	console.log(video);
 	return video ? (
 		<div className="work__img">
 			<div className="work__img__link">
 				<a href={video} target="_blank">
-					<i class="bx bxl-youtube"></i>
+					<i className="bx bxl-youtube"></i>
 				</a>
 				<a href={url} target="_blank">
-					<i class="bx bx-link-external"></i>
+					<i className="bx bx-link-external"></i>
 				</a>
 			</div>
 
