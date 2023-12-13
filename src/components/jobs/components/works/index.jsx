@@ -47,6 +47,12 @@ const data = [
 		name: "image6",
 		url: "https://bsquiroz1000words.netlify.app",
 	},
+	{
+		id: 6,
+		urlImg: "/images/img7.png",
+		name: "image7",
+		url: "https://chat-bsquiroz.vercel.app/#/auth/register",
+	},
 ];
 
 export const Works = () => {
