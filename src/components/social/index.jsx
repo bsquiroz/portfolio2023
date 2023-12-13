@@ -10,7 +10,7 @@ export const Social = () => {
 				<ul className="socials">
 					<li>
 						<a
-							href="https://github.com/bsqmAcademlo"
+							href="https://github.com/bsquiroz"
 							target="_blank"
 							rel="noreferrer"
 						>
