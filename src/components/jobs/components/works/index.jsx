@@ -26,7 +26,7 @@ const data = [
 		id: 2,
 		urlImg: "/images/img3.PNG",
 		name: "image3",
-		url: "https://gourmeatsapp.com/",
+		url: "https://qr.gourmeatsapp.com/slider/kYSud8oMGLfPoXwi2AQD",
 	},
 	{
 		id: 3,
