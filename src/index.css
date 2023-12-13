@@ -24,6 +24,20 @@ body {
 	padding: 7rem 0;
 }
 
+body::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+	background: var(--bg);
+}
+
 img {
 	width: 100%;
 	display: block;
