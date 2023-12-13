@@ -49,6 +49,15 @@ export const Games = () => {
 								<i className="bx bx-dice-3"></i> MemoryGame
 							</a>
 						</li>
+						<li>
+							<a
+								href="https://quizjsappbs.netlify.app/"
+								rel="noreferrer"
+								target="_blank"
+							>
+								<i className="bx bx-dice-4"></i> QuizJsApp
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
