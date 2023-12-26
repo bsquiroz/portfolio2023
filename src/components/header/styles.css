@@ -33,6 +33,19 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.header__talent-text {
+	font-size: 0.7rem;
+	background-color: var(--color-primary);
+	color: var(--bg);
+	padding: 0.2rem 0.5rem;
+	font-weight: bold;
+	text-align: center;
 }
 
 .header__color-change {

@@ -7,6 +7,8 @@ import { Skills } from "../skills";
 export const Header = () => {
 	const { handleColorPrincipal } = useHeader();
 
+	const avaliableWork = true;
+
 	return (
 		<div className="elementScrollReveal section header">
 			<div className="header__top">
@@ -37,6 +39,11 @@ export const Header = () => {
 					<a download={""} href="/stivenQuiroz-cv.pdf">
 						<i className="bx bx-download"></i>
 					</a>
+					{avaliableWork && (
+						<span className="header__talent-text">
+							Disponible para trababar
+						</span>
+					)}
 				</h2>
 				<ul>
 					<li>Fullstack developer JS | </li>
