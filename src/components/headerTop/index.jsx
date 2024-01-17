@@ -4,12 +4,13 @@ import { MusicBs } from "./components/musicBs";
 import { Seasons } from "../seasons";
 
 export const HeaderTop = () => {
+	const season = false
 	return (
 		<div className="headerTop">
 			<MusicBs />
 			<div className="headerR">
 				<ChangeTheme />
-				<Seasons />
+				{season && <Seasons />}
 			</div>
 		</div>
 	);
