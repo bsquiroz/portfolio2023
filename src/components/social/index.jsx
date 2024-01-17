@@ -13,6 +13,7 @@ export const Social = () => {
 							href="https://github.com/bsquiroz"
 							target="_blank"
 							rel="noreferrer"
+							aria-label="icon github for bsquiroz"
 						>
 							<i className="bx bx-tada-hover bxl-github"></i>
 						</a>
@@ -22,6 +23,8 @@ export const Social = () => {
 							href="https://www.linkedin.com/in/bsmq/"
 							target="_blank"
 							rel="noreferrer"
+							aria-label="icon linkedin for bsquiroz"
+
 						>
 							<i className="bx bx-tada-hover bxl-linkedin"></i>
 						</a>
@@ -31,6 +34,8 @@ export const Social = () => {
 							href="https://www.youtube.com/channel/UCFjCKMkah0p-5790yE8Cz6Q"
 							target="_blank"
 							rel="noreferrer"
+							aria-label="icon youtube for bsquiroz"
+
 						>
 							<i className="bx bx-tada-hover bxl-youtube"></i>
 						</a>

@@ -20,6 +20,8 @@ export const About = () => {
 					className="linkCoverLetter"
 					href="https://coverletterme.netlify.app"
 					target="_blank"
+					rel="noreferrer"
+					aria-label="icon link for coverletter bsquiroz"
 				>
 					<i className="bx bx-link"></i>
 					<span>Aquí me presento un poco mejor 🙊</span>
