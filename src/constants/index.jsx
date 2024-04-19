@@ -33,6 +33,11 @@ export const skills = [
 	},
 	{
 		id: 5,
+		name: "Vue",
+		icon: <i class='bx bxl-vuejs'></i>,
+	},
+	{
+		id: 6,
 		name: "Node",
 		icon: <i className="bx bxl-nodejs"></i>,
 	},
