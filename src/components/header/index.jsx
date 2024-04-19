@@ -7,7 +7,7 @@ import { Skills } from "../skills";
 export const Header = () => {
 	const { handleColorPrincipal } = useHeader();
 
-	const avaliableWork = true;
+	const avaliableWork = false;
 
 	return (
 		<div className="elementScrollReveal section header">
