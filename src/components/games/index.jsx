@@ -1,24 +1,31 @@
+import { useTranslation } from "react-i18next";
 import { Separator } from "../separator";
 import "./styles.css";
 
 export const Games = () => {
+	const { t } = useTranslation()
 	return (
 		<div className="elementScrollReveal">
 			<div className="section games">
 				<h2>
-					¿Juegas? <i className="bx bx-game"></i>{" "}
-					<i className="bx bx-ghost"></i>
-					<i className="bx bx-ghost"></i>
-					<i className="bx bx-ghost"></i>
+					{t('games.title')} {' '}
+					<span>
+						<i className="bx bx-game"></i>
+					</span>
+					<span>
+						<i className="bx bx-ghost"></i>
+					</span>
+					<span>
+						<i className="bx bx-ghost"></i>
+					</span>
+					<span>
+						<i className="bx bx-ghost"></i>
+					</span>
 				</h2>
 
 				<div>
 					<p>
-						Bueno... No todo tiene que ser lectura. Aquí tienes
-						algunos minijuegos que he creado. Espero que te
-						diviertas. Recuerda que los códigos fuente están en mi
-						repositorio. Échales un vistazo 👀 y deja una estrellita
-						⭐, ¡jeje!
+						{t('games.principal_paragraph')}
 					</p>
 
 					<ul>

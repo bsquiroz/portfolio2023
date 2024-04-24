@@ -3,8 +3,10 @@ import "./styles.css";
 import { colorsPrimary } from "../../constants";
 import { useHeader } from "./useHeader";
 import { Skills } from "../skills";
+import { useTranslation } from "react-i18next";
 
 export const Header = () => {
+	const { t } = useTranslation()
 	const { handleColorPrincipal } = useHeader();
 
 	const avaliableWork = false;
@@ -49,8 +51,8 @@ export const Header = () => {
 					<li>Fullstack developer JS | </li>
 					<li>Colombia | </li>
 					<li>Medellín | </li>
-					<li>23 años | </li>
-					<li>A veces deportista</li>
+					<li>{t('header.age')} | </li>
+					<li>{t('header.hobbie')}</li>
 				</ul>
 			</div>
 			<Skills />

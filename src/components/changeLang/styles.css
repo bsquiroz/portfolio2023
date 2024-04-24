@@ -1,0 +1,48 @@
+.content__lang {
+  position: relative;
+}
+
+.lang {
+  position: absolute;
+  padding: 0.3rem;
+  right: -100%;
+  bottom: 100%;
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  border: 2px solid var(--bg);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.lang--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.langIcon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  img {
+    width: 25px;
+    height: 25px;
+    transform: translateY(-1px);
+  }
+}
+
+.lang__opt {
+  cursor: pointer;
+}

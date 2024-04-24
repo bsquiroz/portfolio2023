@@ -1,11 +1,13 @@
+import { useTranslation } from "react-i18next";
 import { Separator } from "../separator";
 import "./styles.css";
 
 export const Social = () => {
+	const { t } = useTranslation()
 	return (
 		<div className="elementScrollReveal">
 			<div className="section social">
-				<h2>Aquí me pueden encontrar</h2>
+				<h2>{t('social.title')}</h2>
 
 				<ul className="socials">
 					<li>
